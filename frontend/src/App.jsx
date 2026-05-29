@@ -26,7 +26,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/emissions/"
+        "http://breathe-esg-5m0j.onrender.com/api/emissions/"
       );
 
       setRecords(response.data);
@@ -46,7 +46,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/audit/"
+        "http://breathe-esg-5m0j.onrender.com/api/audit/"
       );
 
       setAuditLogs(response.data);
@@ -66,7 +66,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/ingestion/history/"
+        "http://breathe-esg-5m0j.onrender.com/api/ingestion/history/"
       );
 
       setUploadHistory(response.data);
@@ -121,7 +121,7 @@ function App() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/api/ingestion/upload/",
+        "http://breathe-esg-5m0j.onrender.com/api/ingestion/upload/",
         formData
       );
 
@@ -158,7 +158,7 @@ function App() {
     try {
 
       await axios.post(
-        `http://127.0.0.1:8000/api/emissions/review/${recordId}/`,
+        `http://breathe-esg-5m0j.onrender.com/api/emissions/review/${recordId}/`,
         {
           status: status
         }
@@ -191,7 +191,7 @@ function App() {
   try {
 
     await axios.post(
-      "http://127.0.0.1:8000/api/reset/"
+      "http://breathe-esg-5m0j.onrender.com/api/reset/"
     );
 
     alert("All data reset successfully");
