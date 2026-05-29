@@ -367,6 +367,5 @@ Repository includes:
 * DECISIONS.md
 * TRADEOFFS.md
 * SOURCES.md
-* requirements.txt
 
 ---
