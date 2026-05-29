@@ -1,0 +1,8 @@
+
+Plant Code,Fuel Type,Quantity,Unit,Posting Date
+PLANT_001,Diesel,500,L,2026-01-10
+PLANT_002,Petrol,800,L,2026-01-12
+PLANT_003,Natural Gas,1200,m3,2026-01-14
+PLANT_004,Diesel,150000,L,2026-01-18
+PLANT_005,Petrol,,L,2026-01-20
+

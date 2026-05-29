@@ -1,0 +1,45 @@
+#Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+#Django
+db.sqlite3
+media/
+uploads/
+
+#Logs
+*.log
+
+#Node
+node_modules/
+dist/
+build/
+
+#Environment variables
+.env
+.env.*
+
+#VS Code
+.vscode/
+
+#OS files
+.DS_Store
+Thumbs.db
+
+#Vite
+.vite/
+
+#Python cache
+.pytest_cache/
+.mypy_cache/
+
+#Coverage
+.coverage
+htmlcov/
+
+#Misc
+*.tmp
+*.bak

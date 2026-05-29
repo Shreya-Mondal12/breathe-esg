@@ -1,0 +1,8 @@
+
+Meter ID,Billing Period,kWh,Tariff
+MTR_1001,Jan-2026,12000,Industrial
+MTR_1002,Jan-2026,9000,Commercial
+MTR_1003,Jan-2026,50000,Industrial
+MTR_1004,Feb-2026,13000,Commercial
+MTR_1005,Feb-2026,,Industrial
+
