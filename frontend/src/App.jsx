@@ -115,7 +115,7 @@ function App() {
 
     formData.append(
       "company_id",
-      7
+      1
     );
 
     try {
